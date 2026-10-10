@@ -128,70 +128,73 @@
 ---
 
 ## Your Development Log
+### Entry 1 - October 10, 2026 - 7:00 PM
 
-### Entry 1 - [Date and Time]
-**What I did**:
+**What I did**: Set up the GitHub repository.
 
-**Details**:
+**Details**: Forked the starter repository and prepared it for the assignment.
 
-**Challenges**:
+**Challenges**: Understanding the repository setup.
 
-**Solution**:
+**Solution**: Followed the instructions in the README file.
 
-**Time spent**:
-
----
-
-### Entry 2 - [Date and Time]
-**What I did**:
-
-**Details**:
-
-**Challenges**:
-
-**Solution**:
-
-**Time spent**:
+**Time spent**: 30 minutes
 
 ---
 
-### Entry 3 - [Date and Time]
-**What I did**:
+### Entry 2 - October 10, 2026 - 7:30 PM
 
-**Details**:
+**What I did**: Added process priority.
 
-**Challenges**:
+**Details**: Added a random priority from 1 to 10 and displayed it when a process entered the ready queue.
 
-**Solution**:
+**Challenges**: Keeping the queue order unchanged.
 
-**Time spent**:
+**Solution**: Kept the ready queue in FIFO order and displayed the priority only.
 
----
-
-### Entry 4 - [Date and Time]
-**What I did**:
-
-**Details**:
-
-**Challenges**:
-
-**Solution**:
-
-**Time spent**:
+**Time spent**: 45 minutes
 
 ---
 
-### Entry 5 - [Date and Time]
-**What I did**:
+### Entry 3 - October 10, 2026 - 8:15 PM
 
-**Details**:
+**What I did**: Added the context switch counter.
 
-**Challenges**:
+**Details**: Created a static counter to count when a new process started running.
 
-**Solution**:
+**Challenges**: Updating the counter correctly.
 
-**Time spent**:
+**Solution**: Increased the counter when a new process started running and checked the final count.
 
+**Time spent**: 40 minutes
+
+---
+
+### Entry 4 - October 10, 2026 - 8:55 PM
+
+**What I did**: Added waiting time tracking.
+
+**Details**: Used System.currentTimeMillis() and added a final table showing process name, burst time, waiting time, and turnaround time.
+
+**Challenges**: Calculating the waiting time correctly.
+
+**Solution**: Checked the calculations and tested the program output.
+
+**Time spent**: 1 hour
+
+---
+
+### Entry 5 - October 10, 2026 - 9:55 PM
+
+**What I did**: Tested the program and completed the documentation.
+
+**Details**: Reviewed the three features, checked the output, and worked on MY_WORK.md.
+
+**Challenges**: Making sure the program and documentation met the requirements.
+
+Solution: Reviewed the assignment checklist and checked the program again.
+
+Time spent: 1 hour
 ---
 
 ### Entry 6 - [Optional - Date and Time]
@@ -230,51 +233,33 @@
 > 💡 **TIP:** Mention concrete things you actually did: a method you wrote, an error you hit, a line of output you saw. Generic answers score low.
 >
 > 💡 **TIP:** Draft your answer in a few bullet points first, then turn them into sentences.
-
 ## Question 1: What did you learn about multithreading?
 
-> 💡 **TIP:** Talk about thread creation (`Runnable`, `Thread.start()`), waiting with `Thread.join()`, simulating work with `Thread.sleep()`, and what surprised you.
-
-**Your Answer:** *(5-7 sentences)*
-
-[Write your answer here.]
+I learned that multithreading allows a program to run multiple threads. I learned how to create threads using Runnable and start them using Thread.start(). I also learned that Thread.join() makes one thread wait for another thread to finish. Thread.sleep() can be used to pause a thread for a short time. In this assignment, I learned how threads can simulate processes running in a CPU scheduling system. I was surprised that threads can run in different orders depending on how they are scheduled.
 
 ## Question 2: What was the most challenging part of this assignment?
 
-> 💡 **TIP:** Pick **one** specific challenge (understanding the code, one of the features, Git, the video) and say *why* it was hard.
-
-**Your Answer:** *(5-7 sentences)*
-
-[Write your answer here.]
+The most challenging part of this assignment was understanding how the waiting time is calculated. It was difficult to know how long each process waited before it started running. I also needed to understand how the time values were connected to the scheduling process. A small mistake could make the final results incorrect. I had to review the code carefully to understand where the calculations should be added. This challenge helped me understand CPU scheduling better.
 
 ## Question 3: How did you overcome the challenges you faced?
 
-> 💡 **TIP:** Describe your method: reading documentation, adding `System.out.println` to debug, re-reading the README, testing after each small change, asking for help.
-
-**Your Answer:** *(5-7 sentences)*
-
-[Write your answer here.]
+I overcame the challenges by reading the README file carefully. I reviewed the existing code before making changes. I worked on each feature separately to make the code easier to understand. I also ran the program after making changes to check the output. When something was unclear, I reviewed the related code and instructions again. This approach helped me find mistakes and understand the assignment better.
 
 ## Question 4: How can you apply multithreading concepts in real-world applications?
 
-> 💡 **TIP:** Use real applications you know (web browser, game, mobile app, music player) and connect each one to what you built here.
+Multithreading is useful in many real-world applications. For example, a web browser can load a page while allowing the user to interact with other features. A music player can play music while downloading or loading other content. Mobile applications can perform background tasks without freezing the screen. Games can use different threads for tasks such as processing and background operations. The CPU scheduling concepts in this assignment help explain how processes or tasks can take turns using CPU time. Understanding multithreading helps developers build applications that are more responsive and efficient.
 
-**Your Answer:** *(5-7 sentences)*
+## Optional: What would you like to learn more about?
 
-[Write your answer here.]
+I would like to learn more about thread synchronization and how threads share data safely.
 
-### Optional: What would you like to learn more about?
+## Optional: How confident do you feel about multithreading concepts now?
 
-[Any topics related to threading or operating systems that you're curious about?]
+Beginner. I understand the basic concepts, but I need more practice writing and debugging multithreaded programs.
 
-### Optional: How confident do you feel about multithreading concepts now?
+## Optional: Feedback on the assignment
 
-[Beginner / Intermediate / Confident. What do you understand well? What needs more practice?]
-
-### Optional: Feedback on the assignment
-
-[Any comments? Was it helpful? Too easy or hard? Suggestions?]
-
+The assignment was helpful because it allowed me to practice multithreading and understand CPU scheduling. Some parts were challenging, but testing the program helped me understand the concepts better.
 ---
 
 # Part C: Technical Answers (0.5 mark)
