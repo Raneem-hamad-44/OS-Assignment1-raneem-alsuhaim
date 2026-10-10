@@ -268,9 +268,7 @@ The assignment was helpful because it allowed me to practice multithreading and 
 >
 > ⚠️ **WARNING:** Each answer must be **3 to 5 sentences**, with specific examples from your code or output. Use correct terms: thread, process, time quantum, ready queue, context switch, burst time.
 >
-> 💡 **TIP:** Keep your program output in a text file or screenshot so you can copy real snippets for Question 2.
-تمام، هذا مرتب كامل للنسخ، وشلت الفراغات اللي تحتاج منك إضافة. السؤال الثاني خليته بصياغة عامة بدون عدد أو Output غير حقيقي.
-
+> 
 Question 1: Thread vs Process
 
 A process is an independent program with its own memory, while threads share memory within the same Java program. Processes usually need more resources to create and communicate, while threads are lighter and communicate more easily. In our assignment, the Process class represents a simulated process, but the actual work is performed by a Java thread. In the addProcessToQueue() method, the line new Thread(process) creates a real thread to run the simulated process.
