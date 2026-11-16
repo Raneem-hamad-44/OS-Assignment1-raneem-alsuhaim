@@ -273,7 +273,17 @@ A process is an independent program with its own memory, while threads share mem
 
 Question 2: Ready Queue Behavior
 
-In Round-Robin scheduling, if a process does not finish within its time quantum, it is added back to the ready queue to wait for another turn. For example, a process with a large burst time may need several time slices before it finishes. Re-queuing allows other processes to execute while the unfinished process waits for its next turn. This makes scheduling fair because no single process can use all the CPU time without giving other processes a chance.
+### Question 2: Ready Queue Behavior
+
+In Round-Robin scheduling, if a process does not finish within its time quantum, it yields the CPU and is added back to the tail of the ready queue to wait for another turn. For example, in my simulation output (with Student ID 444051957 and time quantum 3000ms), process `P1` had a burst time larger than one time quantum, so it was re-queued twice before completing its execution. Re-queuing allows other waiting processes in the FIFO queue to get CPU time instead of waiting for one long process to finish. This behavior is essential for fairness and responsiveness in CPU scheduling because every ready process gets an equal time slice.
+
+**Snippet from my terminal output:**
+```text
+  ▶ P1 executing quantum [3000ms]
+  ⏸ P1 completed quantum 3000ms │ Overall progress: [██████████░░░░░░░░░░] 50%
+     Remaining time: 2950ms
+  ↻ P1 yields CPU for context switch
+  ➕ P1 (Priority: 6) enters the ready queue │ Burst time: 5950ms
 
 Explanation of example:
 
