@@ -29,17 +29,15 @@
 
 | Field | Your Answer |
 |-------|-------------|
-| **Full Name** | [Write your full name here] |
-| **Student ID** | [Write your student ID here] |
-| **University Email** | [yourid]@std.psau.edu.sa |
-| **GitHub Username** | [your-github-username] |
-| **Repository Link** | [Paste your repository link here] |
- 
----
+| **Full Name** | raneem alsuhaim |
+| **Student ID** | 444051957 |
+| **University Email** | 444051957@std.psau.edu.sa |
+| **GitHub Username** |  Raneem-hamad-44|
+| **Repository Link** | [https://github.com/Raneem-hamad-44/OS-Assignment1-raneem-alsuhaim.git]
 
 ## 🎥 Video Link
-
-**Video Link**: [https://drive.google.com/drive/folders/179IqmQ8wYtEvb5A547xIuBuOJ1VGnB6i?usp=drive_link]
+https://drive.google.com/file/d/1Fs0Qr3VYIloL60QyyZDiOOLL1cwRj4KA/view?usp=drive_link
+**Video Link**: []
 
 > ⚠️ **WARNING:** The video must be **publicly accessible** ("Anyone with the link can view") on **Google Drive**, **YouTube (Unlisted or Public)** or any other cloud file-sharing system. A private, restricted or broken link counts as a **missing video (-1 mark)**.
 >
